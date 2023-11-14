@@ -1,0 +1,79 @@
+*{
+    background-color: rgb(210, 210, 201);
+}
+
+.highscore{
+    color: blueviolet;
+    float:inline-start
+}
+
+.timer , .clock{
+    color: blueviolet;
+    float: inline-end;
+}
+
+body{
+    text-align: center;
+}
+
+.box{
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.start-btn{
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.start-btn:hover{
+    background-color: blueviolet;
+    color: lightcyan;
+}
+
+
+
+.ansr-btn{
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4;
+}
+
+.ansr-btn:hover{
+    background-color: blueviolet;
+    color: lightcyan;
+}
+
+.next-btn{
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4;
+    display: none;
+}
+
+.next-btn:hover{
+    background-color: blueviolet;
+    color: lightcyan;
+}
+
+.correct{
+ background-color: rgb(199, 86, 86);
+}
+
+.incorrect{
+    background-color: rgb(113, 193, 166);
+}
